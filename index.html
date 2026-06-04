@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Delight</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="bg-black">
+
+    <header class="border-b border-white-50">
+        <div class="max-w-[1320px] mx-auto px-4">
+            <div class="flex items-center justify-center">
+
+                <div class="logo">
+                    <img src="assets/img/ws.png" alt="WsCube Tech" class="w-[150px] py-2" />
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="min-h-screen py-10">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="text-center">
+                <h1 class="text-white text-4xl md:text-6xl font-bold">
+                    Find your next favorite meal
+                </h1>
+
+                <p class="text-gray-400 mt-4 text-sm md:text-base">
+                    Search hundreds of recipes by name, ingredient, or cuisine.
+                </p>
+            </div>
+
+            <div class="max-w-xl mx-auto mt-8">
+                <input type="text" placeholder="Try pasta, spicy, breakfast..."
+                    class="w-full bg-[#071540] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-blue-500 transition">
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-3 mt-6">
+
+                <button
+                    class="px-4 py-2 bg-white text-black rounded-full text-sm font-medium hover:scale-105 transition">
+                    All
+                </button>
+
+                <button
+                    class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Quick
+                </button>
+
+                <button
+                    class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Vegetarian
+                </button>
+
+                <button
+                    class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Healthy
+                </button>
+
+                <button
+                    class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Dessert
+                </button>
+
+                <button
+                    class="px-4 py-2 border border-gray-600 text-white rounded-full text-sm hover:bg-blue-600 transition">
+                    Spicy
+                </button>
+
+            </div>
+
+            <div class="mt-10">
+                <p class="text-gray-400">8 Recipes</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 mt-6">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-[#071540] border border-gray-700 rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/40 transition duration-300">
+
+                    <div class="overflow-hidden">
+                        <img src="assets/img/pasta.jpg"
+                            class="w-full h-56 object-cover hover:scale-110 transition duration-500">
+                    </div>
+
+                    <div class="p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-white font-semibold">
+                                Creamy Garlic Pasta
+                            </h3>
+
+                            <span class="bg-blue-600 text-xs px-2 py-1 rounded text-white">
+                                Easy
+                            </span>
+                        </div>
+
+                        <p class="text-gray-400 text-sm mt-2">
+                            Silky parmesan cream with roasted garlic.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Italian</span>
+
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Vegetarian</span>
+
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Pasta</span>
+                        </div>
+
+                        <div class="flex justify-between mt-5 text-gray-400 text-sm">
+                            <span><i class="fa-solid fa-clock"></i> 25 min</span>
+                            <span><i class="fa-solid fa-user-group"></i> 4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-[#071540] border border-gray-700 rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/40 transition duration-300">
+
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600"
+                            class="w-full h-56 object-cover hover:scale-110 transition duration-500">
+                    </div>
+
+                    <div class="p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-white font-semibold">
+                                Thai Basil Chicken
+                            </h3>
+
+                            <span class="bg-red-600 text-xs px-2 py-1 rounded text-white">
+                                Spicy
+                            </span>
+                        </div>
+
+                        <p class="text-gray-400 text-sm mt-2">
+                            Stir-fried chicken with basil and chili.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Thai</span>
+
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Chicken</span>
+                        </div>
+
+                        <div class="flex justify-between mt-5 text-gray-400 text-sm">
+                            <span><i class="fa-solid fa-clock"></i> 20 min</span>
+                            <span><i class="fa-solid fa-user-group"></i> 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-[#071540] border border-gray-700 rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/40 transition duration-300">
+
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600"
+                            class="w-full h-56 object-cover hover:scale-110 transition duration-500">
+                    </div>
+
+                    <div class="p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-white font-semibold">
+                                Beef Bourguignon
+                            </h3>
+
+                            <span class="bg-gray-600 text-xs px-2 py-1 rounded text-white">
+                                Hard
+                            </span>
+                        </div>
+
+                        <p class="text-gray-400 text-sm mt-2">
+                            Slow braised beef in red wine.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">French</span>
+
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Dinner</span>
+                        </div>
+
+                        <div class="flex justify-between mt-5 text-gray-400 text-sm">
+                            <span><i class="fa-solid fa-clock"></i> 180 min</span>
+                            <span><i class="fa-solid fa-user-group"></i> 6</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="bg-[#071540] border border-gray-700 rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/40 transition duration-300">
+
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600"
+                            class="w-full h-56 object-cover hover:scale-110 transition duration-500">
+                    </div>
+
+                    <div class="p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-white font-semibold">
+                                Avocado Toast
+                            </h3>
+
+                            <span class="bg-green-600 text-xs px-2 py-1 rounded text-white">
+                                Easy
+                            </span>
+                        </div>
+
+                        <p class="text-gray-400 text-sm mt-2">
+                            Healthy breakfast with avocado.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Breakfast</span>
+
+                            <span class="text-xs border border-gray-500 text-white px-2 py-1 rounded">Healthy</span>
+                        </div>
+
+                        <div class="flex justify-between mt-5 text-gray-400 text-sm">
+                            <span><i class="fa-solid fa-clock"></i> 10 min</span>
+                            <span><i class="fa-solid fa-user-group"></i> 1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="bg-[#071540] border border-gray-700 rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/40 transition duration-300">
+
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+                            class="w-full h-56 object-cover hover:scale-110 transition duration-500">
+                    </div>
+
+                    <div class="p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-white font-semibold">
+                                Grain Bowl
+                            </h3>
+
+                            <span class="bg-green-600 text-xs px-2 py-1 rounded text-white">
+                                Healthy
+                            </span>
+                        </div>
+
+                        <p class="text-gray-400 text-sm mt-2">
+                            Nutritious bowl loaded with veggies.
+                        </p>
+
+                        <div class="flex justify-between mt-5 text-gray-400 text-sm">
+                            <span><i class="fa-solid fa-clock"></i> 35 min</span>
+                            <span><i class="fa-solid fa-user-group"></i> 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="bg-[#071540] border border-gray-700 rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-900/40 transition duration-300">
+
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=600"
+                            class="w-full h-56 object-cover hover:scale-110 transition duration-500">
+                    </div>
+
+                    <div class="p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-white font-semibold">
+                                BBQ Ribs
+                            </h3>
+
+                            <span class="bg-red-600 text-xs px-2 py-1 rounded text-white">
+                                Hard
+                            </span>
+                        </div>
+
+                        <p class="text-gray-400 text-sm mt-2">
+                            Slow cooked smoky barbecue ribs.
+                        </p>
+
+                        <div class="flex justify-between mt-5 text-gray-400 text-sm">
+                            <span><i class="fa-solid fa-clock"></i> 240 min</span>
+                            <span><i class="fa-solid fa-user-group"></i>  4</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-[#071540] border-t border-gray-700 mt-12">
+        <div class="max-w-7xl mx-auto px-4 py-6">
+            <p class="text-center text-gray-400 text-sm md:text-base">
+                &copy; 2026 WS Restaurant. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

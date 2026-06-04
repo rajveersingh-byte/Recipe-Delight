@@ -1,0 +1,28 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #020B2D;
+}
+
+body {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020B2D;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d1d5db;
+}
